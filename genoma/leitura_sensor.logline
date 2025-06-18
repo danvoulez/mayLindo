@@ -1,0 +1,2 @@
+version: 0.2
+call(sensor_temperatura(), retry="expo", fallback="sensor_backup()")

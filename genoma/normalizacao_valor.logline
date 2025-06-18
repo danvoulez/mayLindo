@@ -1,0 +1,2 @@
+version: 0.2
+call(normalizar_temperatura(), fallback="valor_padrao()")
