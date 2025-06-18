@@ -1,0 +1,3 @@
+# LogLineOS Genoma
+
+Sistema simbólico e auditável com blocos .logline...

@@ -1,0 +1,6 @@
+version: 0.2
+call(encerrar_fluxo(), retry="linear", fallback="reset_seguro()")version: 0.2
+call(sensor_temperatura(), retry="expo", fallback="sensor_backup()")version: 0.2
+call(normalizar_temperatura(), fallback="valor_padrao()")version: 0.2
+call(persistir_valor(), fallback="log_local()")version: 0.2
+call(prever_estado(), simulate=true)
