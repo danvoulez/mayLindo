@@ -1,0 +1,2 @@
+version: 0.2
+call(encerrar_fluxo(), retry="linear", fallback="reset_seguro()")
